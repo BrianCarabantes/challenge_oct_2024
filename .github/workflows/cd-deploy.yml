@@ -19,7 +19,7 @@ jobs:
       - name: Checkout Configuration Manifests
         uses: actions/checkout@v2
         with:
-          repository: tatimun/configuration-manifest
+          repository: briancarabantes/configuration-manifest
           path: configuration-manifests/k8s
           token: ${{ secrets.GITHUB_TOKEN }}
 
